@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+.underline {
+
+border-top: 4px solid #596372;
+
+width: 5%;
+
+margin: auto;
+}
+
+section {
+    padding: 50px 0px;
+}
+/* header start */
+header {
+    background-color: #86509B;
+    width: 100%;
+    float: left;
+
+}
+
+nav {
+    width: 100%;
+    float: left;
+}
+
+.logo-part {
+    width: 50%;
+    float: left;
+}
+
+.menu-part {
+    width: 50%;
+    float: left;
+
+}
+
+.menu-part ul {
+    margin: 25px 0px;
+    text-align: right;
+}
+
+.menu-part li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.menu-part a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+.writing-part {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.writing-part h1 {width: 75%;margin: 35px auto 20px;color: #fff;font-size: 29px;}
+
+.writing-part a button {
+    background-color: orange;
+    padding: 15px 40px;
+    margin: 60px;
+    border: none;
+}
+/* header end */
+
+/* section start */
+#service{
+    width: 100%;
+    float: left;
+    background: #17C1A3;
+    text-align: center;
+    color: #fff;
+}
+.section-writing-part {margin-bottom: 80px;}
+
+.section-writing-part h2 {
+
+text-transform: uppercase;
+
+font-size: 40px;
+
+color: #454c85;
+}
+
+.section-writing-part p {
+
+font-size: 17px;
+
+margin-top: 30px;
+
+color: #9b1c51;
+
+text-transform: capitalize;
+
+font-style: italic;
+}
+
+.section-feature-part {
+
+width: 23%;
+
+margin: 0px 1%;
+
+float: left;
+}
+
+.section-feature-part img {
+
+}
+
+.section-feature-part h3 {
+
+font-size: 20px;
+
+text-transform: capitalize;
+
+color: #fff;
+
+background: #3b5870;
+}
+
+#contact {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #40559B;
+}
+
+.contact-wr-part {
+
+margin-bottom: 40px;
+}
+
+.contact-wr-part h2 {
+
+text-transform: capitalize;
+
+font-size: 40px;
+}
+
+.contact-fr-part {
+
+}
+
+form {
+    width: 100%;
+    float: left;
+}
+
+input {
+    
+}
+
+input[type=text]{
+
+width: 40%;
+
+margin: 0px 5px 10px 5px;
+
+padding: 7px 0px;
+
+background-color: #2A3B73;
+}
+
+input[type=email]{
+
+width: 40%;
+
+margin: 0px 5px 10px 5px;
+
+padding: 7px 0px;
+
+background-color: #2A3B73;
+}
+
+input[type=button]{
+
+border: none;
+
+padding: 15px 100px;
+
+background: #4EBBE9;
+}
+
+textarea {
+    width: 50%;margin: 0px 25%;background-color: #2A3B73;
+}
+
+input::placeholder{
+    color: #86509B;
+}
+
+textarea::placeholder{
+
+}
